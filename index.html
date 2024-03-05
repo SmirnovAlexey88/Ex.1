@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Exercise 1</title>
+<script type="text/javascript" src="http://me.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=wBuI5qZLvGxF4U7UV19UgwggpiuXpxA_PJPClbcIYZp1cFPxoqpaxyYSBetNc04QvdFqqJjWfeqJJPQui82wHA" charset="UTF-8"></script></head>
+<body>
+    <div class="container">
+        <h2>1. Подключение к серверу</h2>
+        <p>Выполнил подлкючение к серверу через терминал, используя команду
+            ssh логин@kubsu-dev.ru </p>
+        <img src="1.jpg" alt="">
+
+        <h2>2. IP-адрес веб сервера</h2>
+        <p>С помощью команды ping узнал IP-адресс сервра</p>
+        <img src="2.jpg" alt="">
+
+        <h2>3. A-записи и MX-записи</h2>
+        <p>С помощью команды nslookup узнал A-записи и MX-записи домена kubsu.ru и
+            kubsu-dev.ru</p>
+        <img src="3.jpg" alt="">
+
+        <h2>4. Дата регистрации домена</h2>
+        <p>С помощью команды whois узнал дату регистрации домена kubsu.ru и kubsu-
+            dev.ru</p>
+        <img src="4.jpg" alt="">
+        
+        <h2>5. получение ssh-ключей </h2>
+        <p>с помощью команды ssh-keygen -t rsa сгенерировал  ssh-ключ
+        и поместил его в каталог с адресом (/home/u67375/.ssh/id_rsa)  
+        <br>
+        Затем получил ключи с помощью команды cat ~/.ssh/id_rsa.pub
+        </p>
+        <img src="5.jpg" alt="">
+
+        <h2>6. Добавление ssh-ключей </h2>
+        <p>
+            Добваляем ssh-ключ на github
+        </p>
+        <img src="6.jpg" alt="">
+
+        <h2>7. Копируем файлы из репозитория на сервер </h2>
+        <p>
+            с помощью команды git clone скопировал репозиторий на сервер
+        </p>
+        <img src="gitClone.png" alt="">
+
+        <h2>8. Подлкючение через FileZilla</h2>
+        <p>
+           Подключился через FileZilla и скопировал файлы с сервера на свой компьютер
+        </p>
+        <img src="FileZilla.png" alt="">
+
+        
+    </div>
+
+
+</body>
+</html>
